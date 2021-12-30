@@ -1,0 +1,24 @@
+#include<stdio.h>
+int sum(int i,int j,int k)
+ { 
+     printf("%d",i+j+k);
+     
+ }
+//  int sub(int i, int j, int k)
+//   {
+//       printf("%d",i-j-k);
+//   }
+ int main()
+ {
+      int a,b,c;
+      printf("Enter the values to caluclate");
+      scanf("%d%d%d",&a,&b,&c);
+      sum(a,b,c);
+    
+  }
+//   int main(){
+//       int a,b,c;
+//       printf("Enter the values to caluclate");
+//       scanf("%d%d%d",&a,&b,&c);
+//       sub(a,b,c);
+//   }
